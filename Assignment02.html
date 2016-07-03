@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Calculator</title>
+</head>
+<body>
+
+<h1> Simple Calculator</h1>
+<script type="text/javascript">
+	var a;
+	var b;
+
+	function add(){
+		var result = a+b;
+		alert("Addition:"+result);
+		document.write("<br> Addition: " +result);
+	}
+	function subtract(){
+		var result= a-b;
+		alert("Subtraction: "+result);
+		document.write("<br> Subtraction: " +result);
+
+	}
+	function multiply(){
+		var result= a*b;
+		alert("Multiplication:"+result);
+		document.write("<br> Multiplication: " +result);
+	}
+	function divide(){
+		var result=a/b;
+		alert("Division: "+result);
+		document.write("<br> Division: " +result);
+
+	}
+
+	//document.write("Addition: " + result + "Subtraction: " +result + "Multiplication: " +result+ "Division" +result);
+	a=50;
+	b=10;
+	add();
+	subtract();
+	multiply();
+	divide();
+
+</script>
+
+</body>
+</html>
